@@ -1,0 +1,93 @@
+h1 { color:#2D6486 ;
+    margin: 15px;
+text-align: center;
+font-size: 70px;
+font-family: "Great Vibes";}
+
+body { 
+    background-color: #0B1722;
+  }
+
+  .great-vibes-regular {
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .handlee-regular {
+    font-family: "Handlee", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .delius-regular {
+    font-family: "Delius", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .dm-serif-display-regular {
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.intro { 
+color:#2D6486; 
+padding: 5px;
+margin-bottom: 50px;
+margin-top: 30px;
+margin-left: 50px;
+margin-right: 50px;
+border: dotted #2D6486 2px;
+border-radius: 15px;
+font-size: 20px;
+font-family: "Delius";
+align-content: center;
+text-align: center;
+align-items: center;
+}
+
+p { color:aliceblue;}
+.discografia { color:#0B1722;
+  display:inline-block
+padding: 1px;
+margin-top: 30px;
+border: solid #8193D5 4px;
+border-radius: 20px;
+text-align: center;
+background-color:#8193D5;
+font-family: "DM Serif Display";
+font-size: 30px;}
+nav {
+  background-color: #938ec0; 
+  text-align: justify;
+  padding: 8px; 
+  border-radius: 15px;
+  font-size: 20px;
+  font-family: "DM Serif Display";
+}
+
+
+nav ul {
+  list-style-type: none; 
+  margin: 0; 
+  padding: 0; 
+  display: flex; 
+}
+
+
+nav ul li {
+  margin-right: 20px; 
+
+}
+
+nav ul li a {
+  color: white; 
+  text-decoration: none; 
+  padding: 14px 20px; /* Espacio interno de los enlaces */
+  display:flow-root ; /* Hacer que el enlace ocupe todo el espacio del li */
+}
+
+
+nav ul li a:hover {
+  background-color: #564f61; 
+  border-radius: 20px;
+}
