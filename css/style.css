@@ -1,11 +1,11 @@
-h1 { color:#2D6486 ;
+h1 { color:#336f94 ;
     margin: 15px;
 text-align: center;
 font-size: 70px;
 font-family: "Great Vibes";}
 
 body { 
-    background-color: #0B1722;
+    background-color: #122435;
   }
 
   .great-vibes-regular {
@@ -46,48 +46,146 @@ align-items: center;
 }
 
 p { color:aliceblue;}
-.discografia { color:#0B1722;
-  display:inline-block
-padding: 1px;
-margin-top: 30px;
-border: solid #8193D5 4px;
-border-radius: 20px;
-text-align: center;
-background-color:#8193D5;
-font-family: "DM Serif Display";
-font-size: 30px;}
-nav {
-  background-color: #938ec0; 
-  text-align: justify;
-  padding: 8px; 
-  border-radius: 15px;
-  font-size: 20px;
-  font-family: "DM Serif Display";
-}
 
+.contenedor {
+  display: flex;
+  justify-content: center;}
 
-nav ul {
-  list-style-type: none; 
-  margin: 0; 
-  padding: 0; 
-  display: flex; 
-}
-
-
-nav ul li {
-  margin-right: 20px; 
-
-}
-
-nav ul li a {
-  color: white; 
-  text-decoration: none; 
-  padding: 14px 20px; /* Espacio interno de los enlaces */
-  display:flow-root ; /* Hacer que el enlace ocupe todo el espacio del li */
-}
-
-
-nav ul li a:hover {
-  background-color: #564f61; 
+.discografia {
+  color: #0B1722;
+  padding: 4px;
+  margin-top: 25px;
+  margin-bottom: 15px;
+  border: solid #8193D5 4px;
   border-radius: 20px;
+  text-align: center;
+  background-color: #8193D5;
+  font-family: "DM Serif Display";
+  font-size: 30px;
+  display: inline-block; }
+
+  nav {
+    background-color: #8193D5; 
+    padding: 8px; 
+    border-radius: 15px;
+    font-size: 20px;
+    font-family: "DM Serif Display";
+    display: flex;
+    justify-content: center; }
+
+  .contenedor2 {display: flex;
+    justify-content: center;} 
+
+  nav ul {
+    list-style-type: none; 
+    margin: 0; 
+    padding: 0; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li:last-child {
+    margin-right: 0; }
+  
+  nav ul li a {
+    color: white; 
+    text-decoration: none; 
+    padding: 14px 20px;
+    display: inline-block; }
+  
+  nav ul li a:hover {
+    background-color: #564f61; 
+    border-radius: 20px;
+  }
+  h2 { color: #2D6486;
+    font-size: 35px;
+    text-align: center;
+
+  }
+.quienesbillie { font-size: 25px;
+text-align: center; 
+}
+h3 {
+  font-size: 30px;
+  margin-bottom: 2px;
+  text-align: center;
+  color:#2D6486;
+}
+.traduccion { 
+  text-align: center;
+  font-size: 25px;
+  padding: 3px;
+  margin-bottom: 50px; 
+  }
+
+  .barrita {
+    background-color: #8193D5; 
+    padding: 8px; 
+    border-radius: 15px;
+    font-size: 20px;
+    font-family: "DM Serif Display";
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+  }
+  
+  .barrita ul {
+    list-style-type: none; 
+    margin:0 ; 
+    padding: 0; 
+    display: flex; 
+    justify-content: center;
+   align-items: center;  }
+  
+  .barrita ul li {
+    margin-right: 20px;
+  }
+  
+  .barrita ul li:last-child {
+    margin-right: 0; 
+  }
+  
+  .barrita ul li a {
+    color: white; 
+    text-decoration: none; 
+    padding: 14px 20px;
+    display: inline-block;   }
+  
+  .barrita ul li a:hover {
+    background-color: #564f61; 
+    border-radius: 20px;
+  }
+   
+  .contenedor3 { 
+    padding: 2px;
+    margin-bottom: 80px;
+  }
+  
+  .link-entrevista {
+    margin-top: 20px;
+    margin-bottom: 200px; 
+    text-align: center;
+}
+
+.link-entrevista a {
+    font-size: 20px;
+    color:#564f61; 
+    text-decoration: none; 
+    padding: 10px;
+    border: 2px solid;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.link-entrevista a:hover {
+    background-color:#8193D5; 
+    color: #fff; 
+}
+
+footer { 
+  text-align: center;
 }

@@ -14,11 +14,27 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Delius&family=Great+Vibes&family=Handlee&display=swap" rel="stylesheet">
     <title>Billie Eilish Web</title>
+    <style>
+      .contenedor-imagenes {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-wrap: wrap; 
+          gap: 10px; 
+      }
+      .contenedor-imagenes img {
+          max-width: 100%; 
+          height: auto;
+      }
+  </style>
 </head> 
 <body>
         <header> <H1> Billie Eilish</H1> 
            <p class="intro"><strong> Billie Eilish Pirate Baird O'Connell, conocida simplemente como Billie Eilish, es una cantante estadounidense. Obtuvo atención pública por primera vez en diciembre de 2015 con su sencillo debut «Ocean Eyes», escrito y producido por su hermano Finneas O'Connell, con quien colabora en su música y espectáculos en vivo</strong> </p>
-           <h3 class="discografia"> Discografia de Billie Eilish</h3>
+           <div class="contenedor">
+           <div class="discografia"> Discografia de Billie Eilish </div>>
+           </div>
+           <div class="contenedor2"></div>
             <nav> 
               <ul> 
                   <li>
@@ -35,21 +51,43 @@
                 </li>
               </ul>
              </nav>
+            </div> 
          </header>
        <main> 
         <h2> ¿Quien es Billie Eilish? </h2>
         <section>
-             <p> Billie Eilish es una artista internacional de 22 años, que es furor en todo el mundo. Hoy en dia, millones de personas la siguen y escuchan su musica, desde niños hasta adultos. Ha hecho 3 giras internacionales por todo el mundo, cantando todos sus sencillos como ¨My strange addiction¨ y ¨When thee Partys over¨. Actualmente tiene 2 albumes de estudio; When we all fall asleep y Happier than ever, y un EP; Dont Smile At Me. Este ultimo año ha sido tendencia en todos lados, su cancion ¨What Was I Made For¨, la cual escribio para el soundtrack original de la pelicula Barbie. </p>
+            <div class="quienesbillie" > <p> Billie Eilish es una artista internacional de 22 años, que es furor en todo el mundo. Hoy en dia, millones de personas la siguen y escuchan su musica, desde niños hasta adultos. Ha hecho 3 giras internacionales por todo el mundo, cantando todos sus sencillos como ¨My strange addiction¨ y ¨When thee Partys over¨. Actualmente tiene 2 albumes de estudio; When we all fall asleep y Happier than ever, y un EP; Dont Smile At Me. Este ultimo año ha sido tendencia en todos lados, su cancion ¨What Was I Made For¨, la cual escribio para el soundtrack original de la pelicula Barbie. </p>
              <p> Eilish ha batido muchos records en su corta carrera; uno de ellos es ser la artista mas joven en ganar las 4 categorias principales de los Grammys y la artista mas jovenes en ganar dos años seguidos el Oscar a mejor cancion original.
                 Ahora mismo, todos los fans estan en la espera de su tercer album de estudio <strong> ¨Hit Me Hard and Soft</strong> </p>
-        </section>
+              </div>
+              </section>
         <h2> Recorte de la reciente entrevista de Eilish para la revista Rolling Stone</h2>
-        <article> <img src="img/rollingstone.png" > <img src="img/images.jpg" >
-        <h3> Traduccion</h3> <p> Eilish y Finneas llaman a Hit Me Hard and Soft "un álbum-fuego". No se trata de un disco conceptual, pero sí de un conjunto de canciones autoconscientemente cohesionado, inspirado en obras de autor de los últimos 15 años aproximadamente, como Viva La Vida de Coldplay, Born to Die de Lana Del Rey, Goblin de Tyler, the Creator, Electra Heart de Marina and the Diamonds y Big Fish Theory de Vince Staples. "Me encanta sumergirme en el universo del álbum de una persona", dice Finneas, "cuando encuentras toda una obra que te encanta escuchar de arriba abajo. Soy mucho más feliz que cuando escucho una gran canción, cuando dices: 'Oh, vaya, me voy a cocinar toda la cena escuchando este disco'".</p></article>
-      
+       <article class="contenedor-imagenes"> <img src="img/rollingstone.png" > <img src="img/images.jpg" > </article>
+        <h3> Traducción</h3>
+        <div class="traduccion" > <p> Eilish y Finneas llaman a Hit Me Hard and Soft "un álbum-fuego". No se trata de un disco conceptual, pero sí de un conjunto de canciones autoconscientemente cohesionado, inspirado en obras de autor de los últimos 15 años aproximadamente, como Viva La Vida de Coldplay, Born to Die de Lana Del Rey, Goblin de Tyler, the Creator, Electra Heart de Marina and the Diamonds y Big Fish Theory de Vince Staples. "Me encanta sumergirme en el universo del álbum de una persona", dice Finneas, "cuando encuentras toda una obra que te encanta escuchar de arriba abajo. Soy mucho más feliz que cuando escucho una gran canción, cuando dices: 'Oh, vaya, me voy a cocinar toda la cena escuchando este disco'".</p>
+        </div> 
+       
+        <div class="link-entrevista">
+          <a href="https://es.rollingstone.com/arg-billie-eilish-rolling-stone/" target="_blank"> Link entrevista en español</a>
+        </div>
        </main>
+       <div class="contenedor3">
+       <div class="barrita"> 
+        <ul>
+          <li> 
+            <a href="https://open.spotify.com/intl-es/artist/6qqNVTkY8uBg9cP3Jd7DAH?si=BjkPoydPRhGqus_FurzzSA" target="_blank"> Spotify </a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/billieeilish?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank"> Instagram</a>
+          </li>
+          <li>
+            <a href="pages/merch.html" target="_blank"> Merch</a>
+          </li>
+        </ul>
+       </div>
+      </div>
       <footer> <strong>  <p> Pagina creada por Ariana Martinez. Todos los derechos reservados.</p>
       <p> Fuentes: Rolling Stones. Wikipedia.</p> </strong>
     </footer>
 </body>
-</html>
+</html> 

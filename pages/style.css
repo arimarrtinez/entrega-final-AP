@@ -1,0 +1,45 @@
+ h1 { color:#336f94 ;
+margin-top: 30px;
+text-align: center;
+font-size: 70px;
+font-family: "Great Vibes";}
+
+body { 
+    background-color: #122435;
+  }
+
+  .card-text 
+    {
+       color: rgb(16, 42, 65);
+       text-align: center;
+
+  }
+  .card {
+    border:solid; 
+  }
+ 
+  .contenedor-grid {
+    font-size: 25px;
+    font-family: "DM Serif Display", serif;
+    gap: 30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr)); 
+}
+
+.hijo, .hija { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    padding: 9px; 
+    border:black solid 6px;
+    border-radius: 10px;
+
+    
+}
+
+.contenedormerch img {
+    max-width: 100%; 
+    height: auto;
+}
